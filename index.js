@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["KDA"];
+const statusMessages = ["KDA Community","صلي على رسول الله ❤️"];
 
 
 let currentIndex = 0;
@@ -98,7 +98,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 10000);
+  }, 5000);
 });
 
 login();
